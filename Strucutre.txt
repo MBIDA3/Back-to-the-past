@@ -1,0 +1,15 @@
+project/
+├── src/
+│   ├── main.c
+│   ├── game_engine.c
+│   ├── story.c
+│   ├── inventory.c
+│   ├── save_load.c
+│   ├── erro.c
+├── include/
+│   ├── game_engine.h
+│   ├── story.h
+│   ├── inventory.h
+│   ├── save_load.h
+│   ├── error.h
+├── Makefile

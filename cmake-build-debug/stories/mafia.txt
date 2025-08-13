@@ -1,0 +1,98 @@
+# Section 0
+[Narration]
+Bienvenue en Amérique, 1930. Vous êtes Tony Marino, un jeune homme ambitieux cherchant à s'imposer dans le monde des affaires... ou dans celui du crime organisé.
+Une guerre entre deux grandes familles mafieuses, les Russo et les Bellini, divise la ville. Vous commencez votre ascension dans ce monde dangereux en travaillant pour l'une des deux familles.
+[/Narration]
+[Dialogue]
+- Don Bellini : "Bienvenue, Tony. Tu veux réussir dans cette ville ? Alors, montre-moi ce dont tu es capable."
+- Vous : "Je ferai tout ce qu'il faut, Don. Donnez-moi une chance."
+- Don Bellini : "Je te donne ta première mission : convaincre un commerçant de payer sa protection. Si tu échoues, tu es mort."
+[/Dialogue]
+[Choix]
+Aller convaincre le commerçant avec diplomatie -> Section : 1
+Menacer le commerçant de manière violente -> Section : 2
+[/Choix]
+
+# Section 1
+[Narration]
+Vous décidez de parler calmement au commerçant et de le convaincre de la "protection" des Bellini.
+Il hésite, mais finit par accepter de payer.
+[/Narration]
+[Dialogue]
+- Commerçant : "D'accord, je payerai, mais promettez-moi qu'il n'y aura pas de problèmes."
+- Vous : "Tant que vous payez, tout ira bien. Bienvenue sous la protection des Bellini."
+[/Dialogue]
+[Choix]
+Retourner chez Don Bellini pour annoncer la réussite -> Section : 3
+Garder une partie de l'argent pour vous avant de retourner -> Section : 4
+[/Choix]
+
+# Section 2
+[Narration]
+Vous utilisez la violence pour forcer le commerçant à payer. Il accepte sous la menace, mais son fils, témoin de la scène, s'enfuit furieux.
+[/Narration]
+[Dialogue]
+- Commerçant : "Vous aurez votre argent ! Mais ne pensez pas que cela s'arrêtera là !"
+- Vous : "La prochaine fois, paie à temps, sinon ce sera pire."
+[/Dialogue]
+[Choix]
+Retourner chez Don Bellini -> Section : 3
+Tuer le commerçant pour éliminer tout risque -> Section : 5
+[/Choix]
+
+# Section 3
+[Narration]
+Vous revenez chez Don Bellini pour lui rapporter l'argent. Il est satisfait de votre travail, mais il commence à douter de votre loyauté.
+[/Narration]
+[Dialogue]
+- Don Bellini : "Bien joué, Tony. Mais dis-moi, je peux compter sur toi pour toujours rester loyal ?"
+- Vous : "Bien sûr, Don. Ma loyauté est envers vous."
+- Don Bellini : "Bien, car la loyauté est tout dans ce monde."
+[/Dialogue]
+[Choix]
+Jurer fidélité au Don -> Section : 6
+Doubler le Don et travailler pour les Russo -> Section : 7
+[/Choix]
+
+# Section 4
+<Narration>
+Vous gardez une partie de l'argent pour vous. Don Bellini apprend votre trahison et décide de vous éliminer.
+[/Narration>
+[Fin]
+
+# Section 5
+[Narration]
+Vous tuez le commerçant pour éviter tout risque, mais cela attire l'attention de la police et des Russo. Vous devenez une cible.
+[/Narration]
+[Dialogue]
+- Don Bellini : "Pourquoi as-tu attiré l'attention sur nous ? Tu devras régler ça toi-même."
+- Vous : "Je peux gérer ça. Donnez-moi une chance."
+[/Dialogue]
+[Choix]
+Fuir la ville -> Section : 8
+Tenter d'éliminer les Russo pour prouver votre valeur -> Section : 9
+[/Choix]
+
+# Section 6
+[Narration]
+Vous restez loyal au Don et devenez son bras droit. Avec le temps, vous contrôlez une grande partie de la ville, mais au prix de votre humanité.
+[/Narration>
+[Fin]
+
+# Section 7
+[Narration]
+Vous trahissez Don Bellini et rejoignez les Russo. Au début, tout semble aller pour le mieux, mais les Bellini ne pardonnent jamais.
+[/Narration>
+[Fin]
+
+# Section 8
+[Narration]
+Vous fuyez la ville, mais la vie de fugueur est dure. Vous passez le reste de vos jours à regretter vos choix.
+[/Narration>
+[Fin]
+
+# Section 9
+[Narration]
+Vous tentez d'éliminer les Russo, mais c'était un piège. Vous êtes abattu lors d'une embuscade.
+[/Narration>
+[Fin]

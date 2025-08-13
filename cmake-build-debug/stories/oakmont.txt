@@ -1,0 +1,138 @@
+# Section 0
+"1000$"
+[Narration]
+Vous vous réveillez de bonne heure pour votre premier jour à Wall Street. Après un trajet en bus stressant, vous arrivez enfin chez LF Rothschild.
+Prêt à prouver votre valeur, vous entrez dans un monde où chaque appel peut être une opportunité... ou un désastre.
+[/Narration]
+[Dialogue]
+- Park Panna : "Bienvenue, la bleusaille ! Prêt pour ton premier jour ? Moi c’est Park Panna, trader senior."
+- Vous : "Oui monsieur, je suis Jordan Belfort. C'est un honneur."
+- Park Panna : "Garde ton souffle pour décrocher ce téléphone et vendre ! Prends ça comme ton baptême du feu."
+[/Dialogue]
+[Choix]
+1. Décrocher le téléphone immédiatement (Montrer votre motivation dès le départ) -> Section : 1 ID_Conséquence : 1
+2. Hésiter et demander des conseils à Park Panna (Prendre votre temps pour bien démarrer) -> Section : 2 ID_Conséquence : 0
+[/Choix]
+
+
+# Section 1
+[Narration]
+Vous décrochez le téléphone avec enthousiasme. Au bout du fil, un client potentiel : Monsieur Dupont, un ingénieur retraité à la recherche d’un investissement sécurisé pour ses économies.
+Vous vous sentez confiant. Après tout, convaincre un retraité devrait être une tâche facile... ou pas.
+10.000$
+[/Narration]
+[Dialogue]
+- M.Dupont : "Bonjour, on m'a recommandé LF Rothschild. Je veux un placement sûr, mais pas trop risqué."
+- Vous : "Bonjour Monsieur Dupont, je suis Jordan Belfort. J’ai justement quelques idées adaptées à vos besoins."
+[/Dialogue]
+[Choix]
+1. Lui proposer des obligations d'État à faible rendement mais très sécurisées -> Section : 3 ID_Conséquence : 1
+2. Lui proposer des actions technologiques innovantes (Tesla) pour maximiser les profits -> Section : 4 ID_Conséquence : 0
+3. Le convaincre d’investir dans l’immobilier commercial pour diversifier son portefeuille -> Section : 5 ID_Conséquence : 2
+[/Choix]
+
+
+# Section 2
+[Narration]
+Vous hésitez un moment avant de décrocher. Park Panna vous fixe avec impatience, son regard vous transperçant.
+Après quelques conseils rapides, vous décrochez enfin, mais votre hésitation a coûté de précieuses secondes. Le client a raccroché, et vous ressentez la pression monter.
+<750$>
+[/Narration]
+[Dialogue]
+- Park Panna : "Tu veux vendre ou attendre que les clients tombent du ciel ? Bouge-toi, gamin !"
+[/Dialogue]
+[Fin]
+
+
+# Section 3
+[Narration]
+Vous lui proposez des obligations d'État. Votre ton est rassurant, et M. Dupont semble réceptif.
+Après quelques questions pour clarifier les détails, il décide de suivre vos conseils et investit 20.000$. Votre première victoire vous donne un coup de boost !
+10.000$
+[/Narration]
+[Dialogue]
+- M.Dupont : "Merci pour vos conseils. Vous avez gagné ma confiance, Jordan."
+- Vous : "C’est un plaisir de travailler avec des clients avisés comme vous."
+[/Dialogue]
+[Fin]
+
+
+# Section 4
+[Narration]
+Vous lui proposez des actions Tesla, insistant sur leur potentiel de croissance énorme. M. Dupont semble intrigué, mais son enthousiasme diminue rapidement lorsque vous mentionnez leur volatilité.
+Finalement, il décline votre offre, expliquant qu’il cherche quelque chose de plus stable.
+<1.000$>
+[/Narration]
+[Dialogue]
+- Park Panna : "Pas mal, gamin, mais tu dois mieux cerner tes clients. Ce gars voulait du sûr, pas de science-fiction !"
+[/Dialogue]
+[Fin]
+
+
+# Section 5
+[Narration]
+Vous lui proposez d’investir dans un portefeuille immobilier commercial, insistant sur les rendements stables et le potentiel de croissance à long terme.
+M. Dupont semble impressionné par votre analyse et accepte de placer 50.000$ dans ce portefeuille. Vous ressentez une vague d'euphorie alors qu’il signe l'accord.
+20.000$
+[/Narration]
+[Dialogue]
+- M.Dupont : "Merci pour cette opportunité, Jordan. Vous avez un avenir prometteur."
+- Vous : "C’est tout à votre honneur de reconnaître une bonne affaire."
+[/Dialogue]
+[Fin]
+
+
+# Section 6
+[Narration]
+Après un échec précédent, vous décidez de redoubler d’efforts pour rattraper votre retard. Vous décrochez le téléphone avec détermination et prenez un nouveau prospect : Madame Legrand, une retraitée cherchant à sécuriser son patrimoine.
+<500$>
+[/Narration]
+[Dialogue]
+- Mme.Legrand : "Bonjour, je veux m'assurer que mes économies restent intactes pour mes petits-enfants."
+- Vous : "Je comprends parfaitement, Madame Legrand. Permettez-moi de vous présenter quelques opportunités."
+[/Dialogue]
+[Choix]
+1. Proposer un fonds de pension à faible risque -> Section : 8 ID_Conséquence : 1
+2. Proposer un portefeuille équilibré avec un mélange d’obligations et d’actions -> Section : 9 ID_Conséquence : 2
+3. Tenter de convaincre Mme Legrand d’investir dans des actions plus risquées mais potentiellement lucratives -> Section : 10 ID_Conséquence : 0
+[/Choix]
+
+
+# Section 7
+[Narration]
+Vous demandez des conseils à un senior expérimenté, mais il se montre peu coopératif, vous répondant avec dédain :
+"Dans ce métier, on apprend en vendant. Alors, retourne à ton bureau."
+<300$>
+[/Narration]
+[Dialogue]
+- Senior Trader : "Tu veux une leçon gratuite ? Tu rêves. Allez, retourne vendre !"
+[/Dialogue]
+[Fin]
+
+
+# Section 8
+[Narration]
+Madame Legrand décide de suivre vos conseils pour un fonds de pension sécurisé. Vous gagnez sa confiance et une commission modeste.
+Vous vous sentez satisfait de votre approche professionnelle.
+5.000$
+[/Narration]
+[Fin]
+
+
+# Section 9
+[Narration]
+Vous proposez un portefeuille équilibré à Mme Legrand. Convaincue par votre approche, elle investit une partie de son capital dans une solution diversifiée.
+Votre polyvalence dans la présentation de votre offre paye, et vous terminez cet appel sur une note positive.
+15.000$
+[/Narration]
+[Fin]
+
+
+# Section 10
+[Narration]
+Vous poussez Mme Legrand à prendre des risques avec des actions lucratives, insistant sur le potentiel de profits énormes.
+Elle est mécontente de votre insistance et décide de ne pas vous faire confiance.
+Le sentiment d’échec vous envahit alors qu’elle raccroche.
+<1.500$>
+[/Narration]
+[Fin]
